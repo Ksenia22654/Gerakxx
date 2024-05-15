@@ -1,0 +1,71 @@
+main {
+  position: relative;
+  background: #1F1F1F;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  font-family: "Alegreya Sans SC", sans-serif;
+  color: #B1B1B1;
+  font-size: 5.5rem;
+  line-height: 6.6rem;
+}
+main .back-to-website {
+  font-size: 2.6rem;
+  padding: 0px 50px;
+  background: rgba(255, 255, 255, 0.5);
+  color: #000;
+  position: absolute;
+  left: 0;
+  top: 40px;
+}
+main .back-to-website:hover {
+  text-decoration: underline;
+  background: #fff;
+}
+main .error {
+  text-align: center;
+}
+main .error-smile {
+  margin-top: 50px;
+  width: 350px;
+}
+main .error-title {
+  font-size: 20rem;
+  line-height: 24rem;
+  color: #fff;
+}
+main .error-subtitle {
+  margin-bottom: 50px;
+}
+main .error-text {
+  margin: 0 auto;
+  max-width: 840px;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 960px) {
+  .error-smile {
+    width: 250px;
+  }
+  .error-subtitle {
+    margin: 0 auto;
+    max-width: 250px;
+  }
+}
+@media (max-width: 480px) {
+  main {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    min-height: 100vh;
+  }
+  main .back-to-website {
+    padding: 5px 30px;
+    top: 10px;
+  }
+  main .error-smile {
+    width: 180px;
+  }
+  main .error-subtitle {
+    margin-bottom: 20px;
+  }
+}/*# sourceMappingURL=error.css.map */

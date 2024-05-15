@@ -1,0 +1,304 @@
+main{
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 400;
+    color: #000;
+    .product-top{
+        position: relative;
+        background: #fff;
+        min-height: 730px;
+        display: flex;
+        flex-direction: column;
+        .car-image{
+            position: absolute;
+            max-width: 52%;
+            height: 100%;
+            object-fit: cover;
+            object-position: left;
+            right: 0;
+            top: 0;
+        }
+        .car-titles{
+            padding-top: 80px;
+            padding-left: 90px;
+            padding-bottom: 30px;
+        }
+        .car-title{
+            font-size: clamp(1.2rem, 0.6rem + 2vw, 3rem);
+            // font-size: 3.0rem;
+            // line-height: 3.6rem;
+            color: #6D6D6D;
+            max-width: 620px;
+            text-align: center;
+        }
+        .car-subtitle{
+            font-size: clamp(1.1rem, -0.033rem + 3.78vw, 4.5rem);
+            // font-size: 4.5rem;
+            // line-height: 5.4rem;
+            max-width: 600px;
+            text-align: center;
+        }
+        .car-info{
+            max-width: 48%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 70px;
+            padding: 30px 65px;
+        }
+        .car-info-row{
+            display: flex;
+            justify-content: center;
+            gap: 70px;
+            .car-info-row-main{
+                width: 100%;
+            }
+            .car-info-title{
+                color: #196B8E;
+                font-size: clamp(1rem, 3.33vw, 4rem);
+                // font-size: 4.0rem;
+                // line-height: 4.8rem;
+            }
+            .car-info-subtitle{
+                color: #474747;
+                font-size: clamp(0.7rem, -0.067rem + 2.56vw, 3rem);
+                // font-size: 3.0rem;
+                // line-height: 3.6rem;
+                margin-left: 30px;
+            }
+            .car-info-text{
+                width: 100%;
+                color: #474747;
+                font-size: clamp(0.7rem, -0.067rem + 2.56vw, 3rem);
+                // font-size: 3.0rem;
+                // line-height: 3.6rem;
+                text-align: center;
+            }
+        }
+    }
+    .product-bottom{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px 30px;
+        justify-content: center;
+        align-items: center;
+        padding: 40px 0;
+        .product-card{
+            max-width: 46.875%;
+            display: flex;
+            background-color: #D9D9D9;
+            padding: 20px 30px;
+            .product-card-title{
+                font-size: clamp(1.6rem, 2.67vw, 3.2rem);
+                // font-size: 3.2rem;
+                // font-size: clamp();
+                // line-height: 3.8rem;
+                margin-bottom: 30px;
+            }
+            .products-card-image{
+                max-width: 100%;
+                // min-height: 85%;
+                object-fit: cover;
+                object-position: 30% 50%;
+            }
+            .product-card-cost{
+                // font-size: 3.2rem;
+                // line-height: 3.8rem;
+                font-size: clamp(1.6rem, 2.67vw, 3.2rem);
+                text-align: center;
+            }
+            .product-card-right{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                // max-width: 38%;
+            }
+            .product-titles{
+                // font-size: 2.5rem;
+                // line-height: 3.0rem;
+                font-size: clamp(1.2rem, -0.1rem + 2.17vw, 2.5rem);
+                padding-left: 20px;
+            }
+            .product-titles:nth-child(2n+1){
+                color: #3A3A3A;
+            }
+            .product-titles:nth-child(2n){
+                margin-left: 40px;
+            }
+            .book-btn{
+                color: #000;
+                padding: 1vw 2vw;
+                // font-size: 2.5rem;
+                // line-height: 3rem;
+                font-size: clamp(1.2rem, -0.1rem + 2.17vw, 2.5rem);
+                background-color: #989898;
+                text-align: center;
+                border-radius: 30px;
+                margin-left: 30px;
+                transition: all .3s;
+                &:hover{
+                    transform: scale(0.99);
+                    filter: brightness(0.6);
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 1560px) {
+    main{
+        .product-bottom{
+            .product-card{
+                .product-card-title{
+                    font-size: clamp(1.6rem, 0.7rem + 1.5vw, 1.8rem);
+                    margin-bottom: 10px;
+                }
+                .products-card-image{
+                    min-height: 80%;
+                }
+                .product-card-right{
+                    gap: 0px;
+                }
+            }
+        }
+        .product-top{
+            min-height: 365px;
+            .car-titles{
+                padding: 4.17vw 0 2.08vw 6.25vw;
+                max-width: 60%;
+            }
+            .car-title{
+                font-size: 1.5rem;
+                line-height: 1.8rem;
+            }
+            .car-subtitle{
+                font-size: 2.2rem;
+                line-height: 2.7rem;
+            }
+            .car-info{
+                padding: 0px 0px 4.7vw 6.25vw;
+                gap: 40px;
+            }
+            .car-info-row{
+                gap: 20px;
+                .car-info-title{
+                    font-size: 2rem;
+                    line-height: 2.4rem;
+                }
+                .car-info-subtitle{
+                    font-size: 1.5rem;
+                    line-height: 1.8rem;
+                    margin-left: 15px;
+                }
+                .car-info-text{
+                    font-size: 1.5rem;
+                    line-height: 1.8rem;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 960px) {
+    main{
+        .product-bottom{
+            gap: 20px;
+            padding: 20px;
+            .product-card{
+                position: relative;
+                max-width: 450px;
+                padding: 15px;
+                .products-card-image{
+                    object-fit: contain;
+                    max-width: 250px;
+                    min-height: 175px;
+                }
+                .product-card-cost{
+                    font-size: 1.6rem;
+                    line-height: 1.9rem;
+                }
+                .product-card-right{
+                gap: 8px;
+                }
+                .product-titles{
+                    font-size: 1.2rem;
+                    line-height: 1.4rem;
+                }
+                .book-btn{
+                    position: absolute;
+                    font-size: 1.2rem;
+                    line-height: 1.4rem;
+                    padding: 1.04vw 2.08vw;
+                    margin-left: 20px;
+                    bottom: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 480px) {
+    main{
+        .product-top{
+            min-height: 185px;
+            .car-image{
+                max-height: 185px;
+            }
+            .car-title{
+                font-size: 1.2rem;
+                line-height: 1.4rem;
+            }
+            .car-subtitle{
+                font-size: 1.1rem;
+                line-height: 1.3rem;
+            }
+            .car-info{
+                gap: 15px;
+            }
+            .car-info-row{
+                gap: 5px;
+                .car-info-title{
+                    font-size: 1rem;
+                    line-height: 1.2rem;
+                }
+                .car-info-subtitle{
+                    font-size: 0.7rem;
+                    line-height: 0.8rem;
+                }
+                .car-info-text{
+                    font-size: 0.7rem;
+                    line-height: 0.8rem;
+                }
+            }
+        }
+        .product-bottom{
+            gap: 15px;
+            padding: 10px;
+            .product-card{
+                max-width: 100%;
+                padding: 10px;
+                .product-card-title{
+                    margin-bottom: 15px;
+                }
+                .products-card-image{
+                    max-width: 200px;
+                    min-height: auto;
+                }
+                .product-card-cost{
+                    font-size: 1.6rem;
+                    line-height: 1.9rem;
+                }
+                .product-card-right{
+                    gap: 0px;
+                }
+                .product-titles{
+                    font-size: 1.2rem;
+                    line-height: 1.4rem;
+                }
+                .book-btn{
+                    bottom: 10px;
+                }
+            }
+        }
+    }
+}

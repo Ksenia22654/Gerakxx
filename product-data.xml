@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<products>
+
+    <product>
+        <id>1</id>
+        <product-top>
+            <product-title>Mercedes-Benz G-Class</product-title>
+            <product-subtitle>Побеждает время</product-subtitle>
+            <product-image>/images/Mercedes-Benz-G-Class.png</product-image>
+            <product-info>
+                <product-info-title>от 8.7 л/100 км</product-info-title>
+                <product-info-subtitle>Расход топлива</product-info-subtitle>
+                <product-info-text>самый экономичный представитель в классе Mercedes-Benz G 350 d</product-info-text>
+            </product-info>
+            <product-info>
+                <product-info-title>от 4,5 сек</product-info-title>
+                <product-info-subtitle>разгон до 100 км/ч</product-info-subtitle>
+                <product-info-text>самый дерзкий представитель в классе Mercedes-AMG G 63</product-info-text>
+            </product-info>
+            <product-info>
+                <product-info-title>до 585 л.с.</product-info-title>
+                <product-info-subtitle>мощность двигателя</product-info-subtitle>
+                <product-info-text>cамый мощный представитель в классе Mercedes-AMG G 63</product-info-text>
+            </product-info>
+        </product-top>
+
+        <product-bottom>
+
+            <product-card>
+                <product-card-left>
+                    <product-card-title>Mercedes-AMG G 63</product-card-title>
+                    <product-card-image>/images/product-card11.png</product-card-image>
+                </product-card-left>
+                <product-card-right>
+                    <product-card-cost>888 970 byn</product-card-cost>
+                    <product-year>Год выпуска</product-year> 
+                    <product-year-text>2022</product-year-text>
+                    <product-kilometers>Показание однометра, км</product-kilometers> 
+                    <product-kilometers-text>34 км</product-kilometers-text>
+                    <product-engine>Двигатель</product-engine> 
+                    <product-engine-text>3.982л / 585 л.c.</product-engine-text>
+                    <product-fuel>Тип топлитва</product-fuel> 
+                    <product-fuel-text>Бензин</product-fuel-text>
+                </product-card-right>
+            </product-card>
+
+            <product-card>
+                <product-card-left>
+                    <product-card-title>Mercedes-Benz G 500</product-card-title>
+                    <product-card-image>/images/product-card12.png</product-card-image>
+                </product-card-left>
+                <product-card-right>
+                    <product-card-cost>662 951 byn</product-card-cost>
+                    <product-year>Год выпуска</product-year> 
+                    <product-year-text>2020</product-year-text>
+                    <product-kilometers>Показание однометра, км</product-kilometers> 
+                    <product-kilometers-text>44 490 км</product-kilometers-text>
+                    <product-engine>Двигатель</product-engine> 
+                    <product-engine-text>4.0 л / 422 л.с.</product-engine-text>
+                    <product-fuel>Тип топлитва</product-fuel> 
+                    <product-fuel-text>Бензин</product-fuel-text>
+                </product-card-right>
+            </product-card>
+
+            <product-card>
+                <product-card-left>
+                    <product-card-title>Mercedes-Benz G AMG 55</product-card-title>
+                    <product-card-image>/images/product-card13.png</product-card-image>
+                </product-card-left>
+                <product-card-right>
+                    <product-card-cost>116 662 byn</product-card-cost>
+                    <product-year>Год выпуска</product-year> 
+                    <product-year-text>2007</product-year-text>
+                    <product-kilometers>Показание однометра, км</product-kilometers> 
+                    <product-kilometers-text>150 000 км</product-kilometers-text>
+                    <product-engine>Двигатель</product-engine> 
+                    <product-engine-text>5.0 л / 296 л.с. </product-engine-text>
+                    <product-fuel>Тип топлитва</product-fuel> 
+                    <product-fuel-text>Бензин</product-fuel-text>
+                </product-card-right>
+            </product-card>
+
+            <product-card>
+                <product-card-left>
+                    <product-card-title>Mercedes-Benz G-Класс 350 d, 2015</product-card-title>
+                    <product-card-image>/images/product-card14.png</product-card-image>
+                </product-card-left>
+                <product-card-right>
+                    <product-card-cost>274 565 byn</product-card-cost>
+                    <product-year>Год выпуска</product-year> 
+                    <product-year-text>2015</product-year-text>
+                    <product-kilometers>Показание однометра, км</product-kilometers> 
+                    <product-kilometers-text>82 000 км</product-kilometers-text>
+                    <product-engine>Двигатель</product-engine> 
+                    <product-engine-text>3.0 л / 245 л.с. </product-engine-text>
+                    <product-fuel>Тип топлитва</product-fuel> 
+                    <product-fuel-text>Дизель</product-fuel-text>
+                </product-card-right>
+            </product-card>
+
+        </product-bottom>
+    </product>
+
+    <product>
+        <id>2</id>
+        <product-top>
+            <product-title>Mercedes-Maybach S-Class</product-title>
+            <product-subtitle></product-subtitle>
+            <product-image>/images/Mercedes-Maybach S-Classbg.png</product-image>
+            <product-info>
+                <product-info-title>14,1 – 10,7л/100 км</product-info-title>
+                <product-info-subtitle>Расход топлива</product-info-subtitle>
+                <product-info-text></product-info-text>
+            </product-info>
+            <product-info>
+                <product-info-title>от 4,8 сек.</product-info-title>
+                <product-info-subtitle>разгон до 100 км/ч</product-info-subtitle>
+                <product-info-text></product-info-text>
+            </product-info>
+            <product-info>
+                <product-info-title>503 – 613л.с.</product-info-title>
+                <product-info-subtitle>мощность двигателя</product-info-subtitle>
+                <product-info-text></product-info-text>
+            </product-info>
+        </product-top>
+
+        <product-bottom>
+        <product-card>
+            <product-card-left>
+                <product-card-title>Mercedes-Benz S 680</product-card-title>
+                <product-card-image>/images/product-card21.png</product-card-image>
+            </product-card-left>
+            <product-card-right>
+                <product-card-cost>1 261 354,50 byn</product-card-cost>
+                <product-year>Год выпуска</product-year> 
+                <product-year-text>2022</product-year-text>
+                <product-kilometers>Показание однометра, км</product-kilometers> 
+                <product-kilometers-text>140 км</product-kilometers-text>
+                <product-engine>Двигатель</product-engine> 
+                <product-engine-text>6.0 л / 612 л.с.</product-engine-text>
+                <product-fuel>Тип топлитва</product-fuel> 
+                <product-fuel-text>Бензин</product-fuel-text>
+            </product-card-right>
+        </product-card>
+
+        <product-card>
+            <product-card-left>
+                <product-card-title>Mercedes-Benz S 580</product-card-title>
+                <product-card-image>/images/product-card22.png</product-card-image>
+            </product-card-left>
+            <product-card-right>
+                <product-card-cost>1 319 171,66 byn</product-card-cost>
+                <product-year>Год выпуска</product-year> 
+                <product-year-text>2023</product-year-text>
+                <product-kilometers>Показание однометра, км</product-kilometers> 
+                <product-kilometers-text>0</product-kilometers-text>
+                <product-engine>Двигатель</product-engine> 
+                <product-engine-text>4.0 л / 503 л.с.</product-engine-text>
+                <product-fuel>Тип топлитва</product-fuel> 
+                <product-fuel-text>Бензин</product-fuel-text>
+            </product-card-right>
+        </product-card>
+
+        <product-card>
+            <product-card-left>
+                <product-card-title>Mercedes-Benz Maybach 600</product-card-title>
+                <product-card-image>/images/product-card23.png</product-card-image>
+            </product-card-left>
+            <product-card-right>
+                <product-card-cost>1 319 171,66 byn</product-card-cost>
+                <product-year>Год выпуска</product-year> 
+                <product-year-text>2023</product-year-text>
+                <product-kilometers>Показание однометра, км</product-kilometers> 
+                <product-kilometers-text>0</product-kilometers-text>
+                <product-engine>Двигатель</product-engine> 
+                <product-engine-text>4.0 л / 557 л.с.</product-engine-text>
+                <product-fuel>Тип топлитва</product-fuel> 
+                <product-fuel-text>Бензин</product-fuel-text>
+            </product-card-right>
+        </product-card>
+
+        <product-card>
+            <product-card-left>
+                <product-card-title>Mercedes-Benz Maybach 600</product-card-title>
+                <product-card-image>/images/product-card24.png</product-card-image>
+            </product-card-left>
+            <product-card-right>
+                <product-card-cost>1 319 171,66 byn</product-card-cost>
+                <product-year>Год выпуска</product-year> 
+                <product-year-text>2023</product-year-text>
+                <product-kilometers>Показание однометра, км</product-kilometers> 
+                <product-kilometers-text>0</product-kilometers-text>
+                <product-engine>Двигатель</product-engine> 
+                <product-engine-text>4.0 л / 557 л.с.</product-engine-text>
+                <product-fuel>Тип топлитва</product-fuel> 
+                <product-fuel-text>Бензин</product-fuel-text>
+            </product-card-right>
+        </product-card>
+        </product-bottom>
+    </product>
+
+    <product>
+        <id>3</id>
+        <product-top>
+            <product-title>Откройте для себя новый вид роскоши</product-title>
+            <product-subtitle>Mercedes-Benz С-Class</product-subtitle>
+            <product-image>/images/Mercedes-Benz С-Class.png</product-image>
+            <product-info>
+                <product-info-title>от 5,0 л/100 км</product-info-title>
+                <product-info-subtitle>Расход топлива</product-info-subtitle>
+                <product-info-text>самый экономичный представитель в классе Mercedes-Benz C 220 d</product-info-text>
+            </product-info>
+            <product-info>
+                <product-info-title>от 5,7 сек.</product-info-title>
+                <product-info-subtitle>разгон до 100 км/ч</product-info-subtitle>
+                <product-info-text>самый дерзкий представитель в классе Mercedes-Benz C 300 d3</product-info-text>
+            </product-info>
+            <product-info>
+                <product-info-title>до 265 л.с.</product-info-title>
+                <product-info-subtitle>мощность двигателя</product-info-subtitle>
+                <product-info-text>самый мощный представитель в классе Mercedes-Benz C 300 d</product-info-text>
+            </product-info>
+        </product-top>
+
+        <product-bottom>
+        <product-card>
+            <product-card-left>
+                <product-card-title>Mercedes-Benz C 180</product-card-title>
+                <product-card-image>/images/product-card31.png</product-card-image>
+            </product-card-left>
+            <product-card-right>
+                <product-card-cost>146 982,84 byn</product-card-cost>
+                <product-year>Год выпуска</product-year> 
+                <product-year-text>2020</product-year-text>
+                <product-kilometers>Показание однометра, км</product-kilometers> 
+                <product-kilometers-text>17 100 км</product-kilometers-text>
+                <product-engine>Двигатель</product-engine> 
+                <product-engine-text>1.5 л / 150 л.с. </product-engine-text>
+                <product-fuel>Тип топлитва</product-fuel> 
+                <product-fuel-text>Бензин</product-fuel-text>
+            </product-card-right>
+        </product-card>
+
+        <product-card>
+            <product-card-left>
+                <product-card-title>Mercedes-Benz C 200</product-card-title>
+                <product-card-image>/images/product-card32.png</product-card-image>
+            </product-card-left>
+            <product-card-right>
+                <product-card-cost>146 982,84 byn</product-card-cost>
+                <product-year>Год выпуска</product-year> 
+                <product-year-text>2021</product-year-text>
+                <product-kilometers>Показание однометра, км</product-kilometers> 
+                <product-kilometers-text>11 536 км</product-kilometers-text>
+                <product-engine>Двигатель</product-engine> 
+                <product-engine-text>1.5 л / 197 л.с. </product-engine-text>
+                <product-fuel>Тип топлитва</product-fuel> 
+                <product-fuel-text>Бензин</product-fuel-text>
+            </product-card-right>
+        </product-card>
+
+        <product-card>
+            <product-card-left>
+                <product-card-title>Mercedes-Benz C 220</product-card-title>
+                <product-card-image>/images/product-card33.png</product-card-image>
+            </product-card-left>
+            <product-card-right>
+                <product-card-cost>146 982,84 byn</product-card-cost>
+                <product-year>Год выпуска</product-year> 
+                <product-year-text>2023</product-year-text>
+                <product-kilometers>Показание однометра, км</product-kilometers> 
+                <product-kilometers-text>0</product-kilometers-text>
+                <product-engine>Двигатель</product-engine> 
+                <product-engine-text>2.0 л / 200 л.с.</product-engine-text>
+                <product-fuel>Тип топлитва</product-fuel> 
+                <product-fuel-text>Дизель</product-fuel-text>
+            </product-card-right>
+        </product-card>
+
+        <product-card>
+            <product-card-left>
+                <product-card-title>Mercedes-Benz C 300</product-card-title>
+                <product-card-image>/images/product-card34.png</product-card-image>
+            </product-card-left>
+            <product-card-right>
+                <product-card-cost>173 401 byn</product-card-cost>
+                <product-year>Год выпуска</product-year> 
+                <product-year-text>2020</product-year-text>
+                <product-kilometers>Показание однометра, км</product-kilometers> 
+                <product-kilometers-text>48 189 км</product-kilometers-text>
+                <product-engine>Двигатель</product-engine> 
+                <product-engine-text>2.0 л / 258 л.с.</product-engine-text>
+                <product-fuel>Тип топлитва</product-fuel> 
+                <product-fuel-text>Бензин</product-fuel-text>
+            </product-card-right>
+        </product-card>
+        </product-bottom>
+    </product>
+    
+</products>

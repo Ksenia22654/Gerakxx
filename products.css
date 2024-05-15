@@ -1,0 +1,276 @@
+main {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+main .product-top {
+  position: relative;
+  background: #fff;
+  min-height: 730px;
+  display: flex;
+  flex-direction: column;
+}
+main .product-top .car-image {
+  position: absolute;
+  max-width: 52%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: left;
+     object-position: left;
+  right: 0;
+  top: 0;
+}
+main .product-top .car-titles {
+  padding-top: 80px;
+  padding-left: 90px;
+  padding-bottom: 30px;
+}
+main .product-top .car-title {
+  font-size: clamp(1.2rem, 0.6rem + 2vw, 3rem);
+  color: #6D6D6D;
+  max-width: 620px;
+  text-align: center;
+}
+main .product-top .car-subtitle {
+  font-size: clamp(1.1rem, -0.033rem + 3.78vw, 4.5rem);
+  max-width: 600px;
+  text-align: center;
+}
+main .product-top .car-info {
+  max-width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  padding: 30px 65px;
+}
+main .product-top .car-info-row {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+main .product-top .car-info-row .car-info-row-main {
+  width: 100%;
+}
+main .product-top .car-info-row .car-info-title {
+  color: #196B8E;
+  font-size: clamp(1rem, 3.33vw, 4rem);
+}
+main .product-top .car-info-row .car-info-subtitle {
+  color: #474747;
+  font-size: clamp(0.7rem, -0.067rem + 2.56vw, 3rem);
+  margin-left: 30px;
+}
+main .product-top .car-info-row .car-info-text {
+  width: 100%;
+  color: #474747;
+  font-size: clamp(0.7rem, -0.067rem + 2.56vw, 3rem);
+  text-align: center;
+}
+main .product-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+main .product-bottom .product-card {
+  max-width: 46.875%;
+  display: flex;
+  background-color: #D9D9D9;
+  padding: 20px 30px;
+}
+main .product-bottom .product-card .product-card-title {
+  font-size: clamp(1.6rem, 2.67vw, 3.2rem);
+  margin-bottom: 30px;
+}
+main .product-bottom .product-card .products-card-image {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 30% 50%;
+     object-position: 30% 50%;
+}
+main .product-bottom .product-card .product-card-cost {
+  font-size: clamp(1.6rem, 2.67vw, 3.2rem);
+  text-align: center;
+}
+main .product-bottom .product-card .product-card-right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .product-bottom .product-card .product-titles {
+  font-size: clamp(1.2rem, -0.1rem + 2.17vw, 2.5rem);
+  padding-left: 20px;
+}
+main .product-bottom .product-card .product-titles:nth-child(2n+1) {
+  color: #3A3A3A;
+}
+main .product-bottom .product-card .product-titles:nth-child(2n) {
+  margin-left: 40px;
+}
+main .product-bottom .product-card .book-btn {
+  color: #000;
+  padding: 1vw 2vw;
+  font-size: clamp(1.2rem, -0.1rem + 2.17vw, 2.5rem);
+  background-color: #989898;
+  text-align: center;
+  border-radius: 30px;
+  margin-left: 30px;
+  transition: all 0.3s;
+}
+main .product-bottom .product-card .book-btn:hover {
+  transform: scale(0.99);
+  filter: brightness(0.6);
+}
+
+@media (max-width: 1560px) {
+  main .product-bottom .product-card .product-card-title {
+    font-size: clamp(1.6rem, 0.7rem + 1.5vw, 1.8rem);
+    margin-bottom: 10px;
+  }
+  main .product-bottom .product-card .products-card-image {
+    min-height: 80%;
+  }
+  main .product-bottom .product-card .product-card-right {
+    gap: 0px;
+  }
+  main .product-top {
+    min-height: 365px;
+  }
+  main .product-top .car-titles {
+    padding: 4.17vw 0 2.08vw 6.25vw;
+    max-width: 60%;
+  }
+  main .product-top .car-title {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+  main .product-top .car-subtitle {
+    font-size: 2.2rem;
+    line-height: 2.7rem;
+  }
+  main .product-top .car-info {
+    padding: 0px 0px 4.7vw 6.25vw;
+    gap: 40px;
+  }
+  main .product-top .car-info-row {
+    gap: 20px;
+  }
+  main .product-top .car-info-row .car-info-title {
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+  main .product-top .car-info-row .car-info-subtitle {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    margin-left: 15px;
+  }
+  main .product-top .car-info-row .car-info-text {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+}
+@media (max-width: 960px) {
+  main .product-bottom {
+    gap: 20px;
+    padding: 20px;
+  }
+  main .product-bottom .product-card {
+    position: relative;
+    max-width: 450px;
+    padding: 15px;
+  }
+  main .product-bottom .product-card .products-card-image {
+    -o-object-fit: contain;
+       object-fit: contain;
+    max-width: 250px;
+    min-height: 175px;
+  }
+  main .product-bottom .product-card .product-card-cost {
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+  }
+  main .product-bottom .product-card .product-card-right {
+    gap: 8px;
+  }
+  main .product-bottom .product-card .product-titles {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+  }
+  main .product-bottom .product-card .book-btn {
+    position: absolute;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    padding: 1.04vw 2.08vw;
+    margin-left: 20px;
+    bottom: 20px;
+  }
+}
+@media (max-width: 480px) {
+  main .product-top {
+    min-height: 185px;
+  }
+  main .product-top .car-image {
+    max-height: 185px;
+  }
+  main .product-top .car-title {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+  }
+  main .product-top .car-subtitle {
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+  }
+  main .product-top .car-info {
+    gap: 15px;
+  }
+  main .product-top .car-info-row {
+    gap: 5px;
+  }
+  main .product-top .car-info-row .car-info-title {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+  main .product-top .car-info-row .car-info-subtitle {
+    font-size: 0.7rem;
+    line-height: 0.8rem;
+  }
+  main .product-top .car-info-row .car-info-text {
+    font-size: 0.7rem;
+    line-height: 0.8rem;
+  }
+  main .product-bottom {
+    gap: 15px;
+    padding: 10px;
+  }
+  main .product-bottom .product-card {
+    max-width: 100%;
+    padding: 10px;
+  }
+  main .product-bottom .product-card .product-card-title {
+    margin-bottom: 15px;
+  }
+  main .product-bottom .product-card .products-card-image {
+    max-width: 200px;
+    min-height: auto;
+  }
+  main .product-bottom .product-card .product-card-cost {
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+  }
+  main .product-bottom .product-card .product-card-right {
+    gap: 0px;
+  }
+  main .product-bottom .product-card .product-titles {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+  }
+  main .product-bottom .product-card .book-btn {
+    bottom: 10px;
+  }
+}/*# sourceMappingURL=products.css.map */

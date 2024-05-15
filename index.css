@@ -1,0 +1,405 @@
+header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 138px;
+  background-color: #303030;
+}
+header .logo-image {
+  width: 150px;
+  height: 138px;
+}
+header .menu-list-item {
+  margin-left: 30px;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 300;
+  font-size: 6rem;
+  cursor: pointer;
+}
+header #menu-button {
+  color: #BEBDBD;
+}
+header #menu-button:hover {
+  color: #e3e3e3;
+}
+header .menu-list-inner {
+  position: absolute;
+  z-index: 99;
+  padding-top: 33px;
+  transform: translateX(-1000px);
+  transition: all 0.3s ease;
+}
+header .menu-list-inner.opened {
+  display: block;
+  transform: translateX(0);
+}
+header .menu-list-inner-item {
+  min-width: 590px;
+  background-color: #404040;
+  text-align: center;
+  padding: 40px 0;
+  border: 5px solid white;
+}
+header .menu-list-inner-item:hover {
+  background-color: #5f5e5e;
+}
+header .menu-list-inner-item:nth-child(n+2) {
+  margin-top: -10px;
+}
+header .menu-list-inner-item a {
+  color: #fff;
+  text-decoration: none;
+}
+header .logo-name {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-size: 6rem;
+  color: #fff;
+  position: absolute;
+  left: 37%;
+  transition: all 0.2s ease;
+}
+header .logo-name:hover {
+  transform: scale(1.05);
+}
+
+main {
+  background-color: #404040;
+}
+main .section-title {
+  background-color: #787878;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 5rem;
+  line-height: 5.5rem;
+  color: #fff;
+  text-align: center;
+}
+main .top-main-inner {
+  position: relative;
+  max-width: 100%;
+  min-height: 923px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/bg-main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+main .top-name {
+  position: absolute;
+  font-size: 6rem;
+  font-weight: 400;
+  font-family: "Archivo Black", sans-serif;
+  line-height: 6.5rem;
+  color: #fff;
+  top: 95px;
+  left: 70px;
+}
+main .top-description {
+  font-size: 5rem;
+  line-height: 6rem;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  position: absolute;
+  max-width: 57%;
+  top: 95px;
+  right: 70px;
+  text-align: center;
+}
+main .information-block-links {
+  display: flex;
+  justify-content: center;
+  gap: 95px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+main .information-block-links .information-block {
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 25.2%;
+  min-height: 340px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+main .information-block-links .car-in-stock {
+  background-image: url(/images/stock-image.png);
+}
+main .information-block-links .test-drive {
+  background-image: url(/images/test-drive-image.png);
+}
+main .information-block-links .our-services {
+  background-image: url(/images/our-services-image.png);
+}
+main .information-link {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  padding: 25px 20px;
+  background-color: rgba(31, 31, 31, 0.77);
+  border-radius: 30px;
+  transition: all 0.2s ease;
+}
+main .information-link:hover {
+  background-color: rgba(131, 130, 130, 0.77);
+}
+main .about-information {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 130px;
+}
+main .about-information .about-information-text {
+  color: #fff;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 3.6rem;
+  max-width: 32%;
+  margin-right: 100px;
+}
+main .about-information img {
+  max-width: 37%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+  min-height: 256px;
+  background-color: #000;
+}
+footer .information {
+  display: flex;
+  align-items: center;
+}
+footer .instagram-logo {
+  min-width: 120px;
+  color: #fff;
+}
+footer .intagram-title {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 6rem;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 50px;
+}
+footer .footer-menu-list {
+  display: flex;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 400;
+  font-size: 6rem;
+  gap: 50px;
+  text-align: center;
+  align-items: center;
+}
+footer .footer-menu-list-item {
+  transition: all 0.2s ease;
+}
+footer .footer-menu-list-item:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 1660px) {
+  header .logo-name {
+    left: 33%;
+  }
+  main .section-title {
+    font-size: 4rem;
+    line-height: 4.8rem;
+  }
+  main .top-main-inner {
+    min-height: 518px;
+  }
+  main .top-name {
+    font-size: 5rem;
+    line-height: 3.2rem;
+    top: 45px;
+  }
+  main .top-description {
+    font-size: 4.8rem;
+    line-height: 3rem;
+    top: 45px;
+  }
+  footer {
+    padding: 0 70px;
+  }
+  footer .footer-menu-list {
+    gap: 20px;
+  }
+}
+@media (max-width: 1280px) {
+  footer {
+    padding: 0 70px;
+  }
+  footer .instagram-logo {
+    min-width: 60px;
+  }
+  footer .intagram-title, footer .footer-menu-list {
+    font-size: 3rem;
+  }
+  main .information-block-links {
+    gap: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  main .information-block-links .information-block {
+    min-height: 170px;
+  }
+  main .information-link {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+  }
+}
+@media (max-width: 960px) {
+  header {
+    min-height: 65px;
+  }
+  header .logo-image {
+    width: 65px;
+    height: 65px;
+  }
+  header .menu-list-item {
+    font-size: 3rem;
+  }
+  header .logo-name {
+    font-size: 3rem;
+    left: 37%;
+  }
+  header .menu-list-inner {
+    padding-top: 14px;
+  }
+  header .menu-list-inner-item {
+    min-width: 400px;
+    font-size: 4.5rem;
+  }
+  main .section-title {
+    font-size: 4rem;
+    line-height: 4.8rem;
+  }
+  main .top-main-inner {
+    min-height: 518px;
+    background-position: 25% 0%;
+  }
+  main .top-name {
+    font-size: 3rem;
+    line-height: 3.2rem;
+    top: 45px;
+    left: 20px;
+  }
+  main .top-description {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    top: 45px;
+    right: 10px;
+  }
+  main .about-information {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+  main .about-information .about-information-text {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    max-width: 68%;
+    margin-right: 0;
+    order: 1;
+    margin-top: 30px;
+  }
+  main .about-information img {
+    max-width: 75%;
+  }
+}
+@media (max-width: 660px) {
+  header .menu-list-inner-item {
+    min-width: 350px;
+    padding: 20px 0;
+  }
+  footer {
+    min-height: 60px;
+    padding: 0 20px;
+  }
+  footer .instagram-logo {
+    min-width: 30px;
+  }
+  footer .intagram-title {
+    margin-left: 10px;
+  }
+  footer .intagram-title, footer .footer-menu-list {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 480px) {
+  header {
+    min-height: 35px;
+  }
+  header .logo-image {
+    width: 35px;
+    height: 35px;
+  }
+  header .menu-list-item {
+    margin-left: 10px;
+    font-size: 1.5rem;
+  }
+  header .logo-name {
+    font-size: 1.5rem;
+  }
+  header .menu-list-inner {
+    padding-top: 8px;
+  }
+  header .menu-list-inner-item {
+    min-width: 350px;
+    font-size: 2.5rem;
+  }
+  main .top-main-inner {
+    min-height: 265px;
+    background-attachment: scroll;
+    background-position-x: 60%;
+  }
+  main .section-title {
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+  main .top-name {
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    top: 20px;
+    left: 10px;
+  }
+  main .top-description {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    top: 20px;
+  }
+  main .information-block-links {
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 52%;
+    gap: 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  main .about-information {
+    padding-bottom: 20px;
+  }
+  main .about-information .about-information-text {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+  footer .footer-menu-list {
+    gap: 10px;
+  }
+}
+@media (max-width: 390px) {
+  header .menu-list-inner-item {
+    min-width: 300px;
+  }
+}/*# sourceMappingURL=index.css.map */

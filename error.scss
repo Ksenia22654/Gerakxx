@@ -1,0 +1,71 @@
+main{
+    position: relative;
+    background: #1F1F1F;
+    height: fit-content;
+    width: 100%;
+    font-family: "Alegreya Sans SC", sans-serif;
+    color: #B1B1B1;
+    font-size: 5.5rem;
+    line-height: 6.6rem;
+    .back-to-website{
+        font-size: 2.6rem;
+        padding: 0px 50px;
+        background: rgb(255, 255, 255, 0.5);
+        color: #000;
+        position: absolute;
+        left: 0;
+        top: 40px;
+        &:hover{
+            text-decoration: underline;
+            background: #fff;
+        }
+    }
+    .error{
+        text-align: center;
+    }
+    .error-smile{
+        margin-top: 50px;
+        width: 350px;
+    }
+    .error-title{
+        font-size: 20.0rem;
+        line-height: 24.0rem;
+        color: #fff;
+    }
+    .error-subtitle{
+        margin-bottom: 50px;    
+    }
+    .error-text{
+        margin: 0 auto;
+        max-width: 840px;
+        padding-bottom: 50px;
+    }
+}
+
+@media(max-width: 960px){
+    .error-smile{
+        width: 250px;
+    }
+    .error-subtitle{
+        margin: 0 auto;
+        max-width: 250px;
+    }
+}
+
+@media(max-width: 480px){
+    main{
+        font-size: 2.5rem;
+        line-height: 3.0rem;
+        min-height: 100vh;
+        .back-to-website{
+            padding: 5px 30px;
+            top: 10px;
+        }
+        .error-smile{
+            width: 180px;
+        }
+        .error-subtitle{
+            margin-bottom: 20px;    
+        }
+    }
+}

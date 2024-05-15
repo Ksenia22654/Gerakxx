@@ -1,0 +1,255 @@
+main {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 3.6rem;
+  color: #fff;
+  background-image: url(/images/bg-services.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+main .registration {
+  display: flex;
+  align-items: center;
+}
+main .services-information {
+  display: flex;
+  flex-direction: column;
+  gap: 120px 0;
+  border-radius: 60px;
+  padding: 30px;
+  margin: 110px 65px 150px 75px;
+  background: rgba(0, 0, 0, 0.5);
+  max-width: 34.7%;
+}
+main .services-form {
+  background: rgba(0, 0, 0, 0.5);
+  margin: 170px 40px;
+  padding: 30px 60px;
+  border-radius: 60px;
+  max-width: 39.9%;
+  display: flex;
+  flex-direction: column;
+}
+main .services-form input {
+  max-width: 100%;
+  background: #fff;
+  border-radius: 60px;
+  color: #000;
+  padding: 5px 20px;
+}
+main .services-form input:focus {
+  box-shadow: 2px 6px 53px -19px rgba(0, 0, 0, 0.7) inset;
+  -webkit-box-shadow: 2px 6px 53px -19px rgba(0, 0, 0, 0.7) inset;
+  -moz-box-shadow: 2px 6px 53px -19px rgba(0, 0, 0, 0.7) inset;
+}
+main .services-form button {
+  background-color: #fff;
+  max-width: 350px;
+  color: #000;
+  font-size: 5.5rem;
+  line-height: 6.6rem;
+  border-radius: 60px;
+  margin-top: 25px;
+  transition: all 0.2s ease;
+}
+main .services-form button:hover {
+  background-color: #bfbdbd;
+}
+main #form-phone-text {
+  display: block;
+  margin-top: 30px;
+}
+main .garanty-cost {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 300px;
+  padding: 0 10%;
+}
+main .garanty-cost .garanties {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-right: 40px;
+}
+main .garanty-cost .garanty-title {
+  color: #000;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  padding: 28px 50px;
+  text-align: center;
+  background-color: #D9D9D9;
+  border-radius: 20px;
+}
+main .garanty-cost .costs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  min-width: 56.9%;
+}
+main .garanty-cost .costs .cost-inner {
+  display: flex;
+  border-bottom: 2px solid white;
+}
+main .garanty-cost .costs .mechanic {
+  margin-left: 30px;
+}
+main .garanty-cost .costs .cost {
+  margin-left: auto;
+  margin-right: 30px;
+}
+main .additional-information {
+  font-size: 4rem;
+  line-height: 4.8rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 0 26% 66px 26%;
+  margin: 0 auto;
+}
+
+@media (max-width: 1600px) {
+  main .additional-information {
+    font-size: 3rem;
+    line-height: 3.6rem;
+    padding: 0 17.7% 40px 17.7%;
+  }
+  main .services-form {
+    margin: 0 20px;
+  }
+  main .services-information {
+    margin: 170px 20px;
+  }
+}
+@media (max-width: 1280px) {
+  main .services-information {
+    font-size: 3rem;
+    margin-left: 70px;
+  }
+  main .services-form {
+    font-size: 3rem;
+  }
+  main .services-form button {
+    font-size: inherit;
+  }
+  main .garanty-cost {
+    margin-bottom: 100px;
+  }
+  main .garanty-cost .costs, main .garanty-cost .garanty-title {
+    font-size: 3rem;
+  }
+  main .garanty-cost .garanty-title {
+    line-height: 3.2rem;
+    padding: 20px 40px;
+  }
+}
+@media (max-width: 960px) {
+  main {
+    font-size: 3.5rem;
+    line-height: 3.2rem;
+    background-position: right;
+  }
+  main .registration {
+    flex-direction: column;
+  }
+  main .registration div, main .registration form {
+    max-width: 470px;
+  }
+  main .services-form {
+    border-radius: 30px;
+    padding: 30px;
+    margin-bottom: 50px;
+  }
+  main .services-form input {
+    padding: 0;
+    padding-left: 20px;
+  }
+  main .services-form button {
+    font-size: 2.7rem;
+    line-height: 3.2rem;
+  }
+  main .services-information {
+    border-radius: 30px;
+    margin: 55px 0;
+  }
+  main .garanty-cost {
+    padding: 0 25px;
+  }
+  main .garanty-cost .garanty-title {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    padding: 15px 10px;
+    min-height: 57px;
+  }
+  main .garanty-cost .costs {
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+  main .garanty-cost .costs .mechanic {
+    margin-left: 0;
+  }
+  main .garanty-cost .costs .cost {
+    margin-right: 0;
+  }
+  main .additional-information {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+}
+@media (max-width: 660px) {
+  main .services-information, main .services-form {
+    font-size: 1.7rem;
+    line-height: 2rem;
+  }
+  main .services-form button {
+    max-width: 120px;
+  }
+  main .garanty-cost .garanty-title {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    min-height: 30px;
+  }
+  main .garanty-cost .costs {
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+  main .garanty-cost .costs .mechanic {
+    margin-left: 0;
+  }
+  main .garanty-cost .costs .cost {
+    margin-right: 0;
+  }
+}
+@media (max-width: 480px) {
+  main {
+    font-size: 1.7rem;
+    line-height: 2rem;
+  }
+  main .registration div, main .registration form {
+    max-width: 300px;
+  }
+  main .services-form input {
+    min-height: 30px;
+  }
+  main .services-form button {
+    font-size: 1.7rem;
+    line-height: 2rem;
+  }
+  main .services-information {
+    gap: 50px;
+    margin: 30px 0;
+  }
+  main .garanty-cost {
+    margin-bottom: 30px;
+  }
+  main .garanty-cost .garanties {
+    margin-right: 10px;
+  }
+  main .additional-information {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    padding-bottom: 20px;
+  }
+}/*# sourceMappingURL=services.css.map */

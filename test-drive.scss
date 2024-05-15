@@ -1,0 +1,238 @@
+main{
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 400;
+    font-size: 5.5rem;
+    line-height: 6.6rem;
+    color: #fff;
+    .test-drive-top{
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.5), 
+            rgba(0, 0, 0, 0.5)),
+            url('/images/test-drive-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 950px;
+        .test-drive-top-title{
+            text-align: center;
+            max-width: 62.4%;
+            padding: 58px 0 0 94px;
+        }
+    }
+    .test-drive-information{
+        .test-dirve-information-title{
+            text-align: center;
+            margin-top: 58px;
+            margin-bottom: 20px;
+        }
+        .test-drive-information-inner{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 60px;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 80px;
+        }
+        .test-drive-information-text{
+            max-width: 39%;
+            font-size: 2.5rem;
+            line-height: 3.0rem;
+        }
+        .test-drive-information-image{
+            max-width: 49%;
+        }
+    }
+    .test-drive-form{
+        padding-bottom: 64px;
+        .test-drive-form-title{
+            font-size: 3.5rem;
+            line-height: 4.2rem;
+            text-align: center;
+            max-width: 39.8%;
+            margin: 0 auto;
+            margin-bottom: 40px;
+        }
+        .test-drive-form-inner{
+            max-width: 39.9%;
+            display: flex;
+            flex-direction: column;
+            background: rgba(0,0,0,.5);
+            padding: 30px 40px;
+            border-radius: 60px;
+            font-size: 4.4rem;
+            line-height: 5.0rem;
+            margin: 0 auto;
+            .name-input{
+                margin-bottom: 80px;
+            }
+            .phone-input{
+                margin-bottom: 50px;
+            }
+            input{
+                max-width: 466px;
+                background: #fff;
+                border-radius: 60px;
+                color: #000;
+                padding: 5px 20px;
+                &:focus{
+                    box-shadow: 2px 6px 53px -19px rgba(0,0,0,0.70) inset;
+                    -webkit-box-shadow: 2px 6px 53px -19px rgba(0,0,0,0.70) inset;
+                    -moz-box-shadow: 2px 6px 53px -19px rgba(0,0,0,0.70) inset;
+                }
+            }
+            button{
+                min-width: 45%;
+                background-color: #fff;
+                color: #000;
+                border-radius: 60px;
+                transition: all .2s ease;
+                padding: 10px;
+                margin: 0 auto;
+                &:hover{
+                    background-color: #bfbdbd;
+                }
+            }
+            label{
+                font-size: 3.5rem;
+                line-height: 4.2rem;
+            }
+        }
+    }
+}
+
+@media(max-width: 1280px){
+    main{
+        .test-dirve-information-title{
+            padding: 0 70px;
+        }
+        .test-drive-information .test-drive-information-text{
+            font-size: 1.8rem;
+            line-height: 2.0rem;
+        }
+        .test-drive-information .test-drive-information-image{
+            max-width: 41%;
+        }
+    }
+}
+
+@media(max-width: 960px){
+    main{
+        .test-drive-top{
+            min-height: 474px;
+            .test-drive-top-title{
+                font-size: 2.7rem;
+                line-height: 3.2rem;
+                padding: 44px 0 0 25px;
+            }
+        }
+        .test-drive-information{
+            .test-drive-information-inner{
+                margin-bottom: 50px;
+            }
+            .test-dirve-information-title{
+                font-size: 2.7rem;
+                line-height: 3.2rem;
+                margin-top: 30px;
+            }
+            .test-drive-information-text{
+                font-size: 1.2rem;
+                line-height: 1.4rem;
+            }
+        }
+        .test-drive-form{
+            padding-bottom: 30px;
+            .test-drive-form-title{
+                max-width: 490px;
+                font-size: 2.7rem;
+                line-height: 3.2rem;
+            }
+            .test-drive-form-inner{
+                max-width: 430px;
+                font-size: 2.8rem;
+                label{
+                    font-size: 2.7rem;
+                    line-height: 3.2rem;
+                }
+                .name-input, .phone-input{
+                    margin-bottom: 35px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 660px){
+    main{
+        .test-drive-information{
+            .test-drive-information-inner{
+                flex-direction: column;
+                gap: 10px;
+                padding: 0 25px;
+            }
+            .test-dirve-information-title{
+                max-width: 100%;
+            }
+            .test-drive-information-text{
+                max-width: 100%;
+            }
+            .test-drive-information-image{
+                max-width: 82%
+            }
+        }
+    }
+}
+
+@media(max-width: 960px){
+    main{
+        .test-drive-top{
+            min-height: 240px;
+            .test-drive-top-title{
+                max-width: 290px;
+                font-size: 1.3rem;
+                line-height: 1.5rem;
+                padding: 30px 0 0 10px;
+            }
+        }
+        .test-drive-information{
+            .test-drive-information-inner{
+                margin-bottom: 15px;
+            }
+            .test-dirve-information-title{
+                font-size: 1.3rem;
+                line-height: 1.5rem;
+                margin-top: 15px;
+            }
+            .test-drive-information-text{
+                font-size: 1.2rem;
+                line-height: 1.4rem;
+            }
+            .test-drive-information-image{
+                max-width: 100%;
+            }
+        }
+        .test-drive-form{
+            padding-bottom: 15px;
+            .test-drive-form-title{
+                max-width: 230px;
+                font-size: 1.3rem;
+                line-height: 1.5rem;
+                margin-bottom: 20px;
+            }
+            .test-drive-form-inner{
+                max-width: 290px;
+                font-size: 1.7rem;
+                line-height: 2.0rem;
+                label{
+                    font-size: inherit;
+                    line-height: inherit;
+                }
+                button{
+                    padding: 10px 20px;
+                }
+                .name-input, .phone-input{
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+}

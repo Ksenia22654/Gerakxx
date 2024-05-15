@@ -1,0 +1,430 @@
+header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 138px;
+    background-color: #303030;
+    .logo-image {
+        width: 150px;
+        height: 138px;
+    }
+    .menu-list-item {
+        margin-left: 30px;
+        font-family: "Alegreya Sans SC", sans-serif;
+        font-weight: 300;
+        font-size: 6.0rem;
+        cursor: pointer;
+    }
+    #menu-button{
+        color: #BEBDBD;
+        &:hover{
+            color: #e3e3e3;
+        }
+    }
+    .menu-list-inner {
+        position: absolute;
+        z-index: 99;
+        padding-top: 33px;
+        transform: translateX(-1000px);
+        transition: all .3s ease;
+    }
+    .menu-list-inner.opened {
+        display: block;
+        transform: translateX(0);
+    }
+    .menu-list-inner-item {
+        min-width: 590px;
+        background-color: #404040;
+        text-align: center;
+        padding: 40px 0;
+        border: 5px solid white;
+        &:hover {
+            background-color: #5f5e5e;
+        }
+    }
+    .menu-list-inner-item:nth-child(n+2) {
+        margin-top: -10px;
+    }
+    .menu-list-inner-item a {
+        color: #fff;
+        text-decoration: none;
+    }
+    .logo-name {
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 400;
+        font-size: 6.0rem;
+        // line-height: 6.5rem;
+        color: #fff;
+        position: absolute;
+        left: 37%;
+        transition: all .2s ease;
+        &:hover{
+            transform: scale(1.05);
+        }
+    }
+}
+
+main{
+    background-color: #404040;
+    .section-title{
+        background-color: #787878;
+        font-family: "Alegreya Sans SC", sans-serif;
+        font-size: 5.0rem;
+        line-height: 5.5rem;
+        color: #fff;
+        text-align: center;
+    }
+    .top-main-inner{
+        position: relative;
+        max-width: 100%;
+        min-height: 923px;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/bg-main.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .top-name{
+        position: absolute;
+        font-size: 6.0rem;
+        font-weight: 400;
+        font-family: "Archivo Black", sans-serif;
+        line-height: 6.5rem;
+        color: #fff;
+        top: 95px;
+        left: 70px;
+    }
+    .top-description{
+        font-size: 5.0rem;
+        line-height: 6.0rem;
+        font-family: "Alegreya Sans SC", sans-serif;
+        font-weight: 400;
+        color: #fff;
+        position: absolute;
+        max-width: 57%;
+        // max-width: 1100px
+        top: 95px;
+        right: 70px;
+        text-align: center;
+    }
+
+    .information-block-links{
+        display: flex;
+        justify-content: center;
+        gap: 95px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        .information-block{
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-width: 25.2%;
+            min-height: 340px;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+        .car-in-stock{
+            background-image: url(/images/stock-image.png);
+        }
+        .test-drive{
+            background-image: url(/images/test-drive-image.png);
+        }
+        .our-services{
+            background-image: url(/images/our-services-image.png);
+        }
+    }
+    .information-link{
+        font-size: 2rem;
+        line-height: 2.4rem;
+        font-weight: 700;
+        font-family: "Inter", sans-serif;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+        padding: 25px 20px;
+        background-color: rgb(31, 31, 31, 0.77);
+        border-radius: 30px;
+        transition: all .2s ease;
+        &:hover{
+            background-color: rgba(131, 130, 130, 0.77);
+        }
+    }
+    .about-information{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 130px;
+        .about-information-text{
+            color: #fff;
+            font-family: "Alegreya Sans SC", sans-serif;
+            font-weight: 400;
+            font-size: 3.0rem;
+            line-height: 3.6rem;
+            max-width: 32%;
+            margin-right: 100px;
+        }
+        img{
+            max-width: 37%;
+            object-fit: cover;
+        }
+    }
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    min-height: 256px;
+    background-color: #000;
+    .information{
+        display: flex;
+        align-items: center;
+    }
+    .instagram-logo{
+        min-width: 120px;
+        color: #fff;
+    }
+    .intagram-title{
+        font-family: "Alegreya Sans SC", sans-serif;
+        font-size: 6.0rem;
+        font-weight: 400;
+        color: #fff;
+        margin-left: 50px;
+    }
+    .footer-menu-list{
+        display: flex;
+        font-family: "Alegreya Sans SC", sans-serif;
+        font-weight: 400;
+        font-size: 6rem;
+        gap: 50px;
+        text-align: center;
+        align-items: center;
+    }
+    .footer-menu-list-item{
+        transition: all .2s ease;
+        &:hover{
+            transform: scale(1.05);
+        }
+    }
+}
+
+@media(max-width: 1660px){
+    header{
+        .logo-name{
+            left: 33%;
+        }
+    }
+    
+    main{
+        .section-title{
+            font-size: 4rem;
+            line-height: 4.8rem;
+        }
+        .top-main-inner{
+            min-height: 518px;
+        }
+        .top-name{
+            font-size: 5.0rem;
+            line-height: 3.2rem;
+            top: 45px;
+        }
+        .top-description{
+            font-size: 4.8rem;
+            line-height: 3.0rem;
+            top: 45px;
+        }
+    }
+    footer{
+        padding: 0 70px;
+        .footer-menu-list{
+            gap: 20px;
+        }
+    }
+}
+
+@media(max-width: 1280px){
+    footer{
+        padding: 0 70px;
+        .instagram-logo{
+            min-width: 60px;
+        }
+        .intagram-title, .footer-menu-list{
+            font-size: 3.0rem;
+        }
+    }
+    main{
+        .information-block-links{
+            gap: 45px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            .information-block{
+                min-height: 170px;
+            }
+        }
+        .information-link{
+            font-size: 1rem;
+            line-height: 1.2rem;
+            margin-bottom: 20px;
+            padding: 15px 10px;
+        }
+    }
+}
+
+@media(max-width: 960px){
+    header{
+        min-height: 65px;
+        .logo-image {
+            width: 65px;
+            height: 65px;
+        }
+        .menu-list-item{
+            font-size: 3.0rem;
+        }
+        .logo-name {
+            font-size: 3.0rem;
+            left: 37%;
+        }
+        .menu-list-inner{
+            padding-top: 14px;
+        }
+        .menu-list-inner-item{
+            min-width: 400px;
+            font-size: 4.5rem;
+        }
+    }
+    main{
+        .section-title{
+            font-size: 4rem;
+            line-height: 4.8rem;
+        }
+        .top-main-inner{
+            min-height: 518px;
+            background-position: 25% 0%;
+        }
+        .top-name{
+            font-size: 3.0rem;
+            line-height: 3.2rem;
+            top: 45px;
+            left: 20px;
+        }
+        .top-description{
+            font-size: 2.5rem;
+            line-height: 3.0rem;
+            top: 45px;
+            right: 10px;
+        }
+
+        .about-information{
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 50px;
+            .about-information-text{
+                font-size: 1.5rem;
+                line-height: 1.8rem;
+                max-width: 68%;
+                margin-right: 0;
+                order: 1;
+                margin-top: 30px;
+            }
+            img{
+                max-width: 75%;
+            }
+        }
+    }
+}
+
+@media(max-width: 660px){
+    header{
+        .menu-list-inner-item {
+            min-width: 350px;
+            padding: 20px 0;
+        }
+    }
+    footer{
+        min-height: 60px;
+        padding: 0 20px;
+        .instagram-logo{
+            min-width: 30px;
+        }
+        .intagram-title{
+            margin-left: 10px;
+        }
+        .intagram-title, .footer-menu-list{
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media(max-width:480px){
+    header{
+        min-height: 35px;
+        .logo-image {
+            width: 35px;
+            height: 35px;
+        }
+        .menu-list-item{
+            margin-left: 10px;
+            font-size: 1.5rem;
+        }
+        .logo-name {
+            font-size: 1.5rem;
+        }
+        .menu-list-inner{
+            padding-top: 8px;
+        }
+        .menu-list-inner-item{
+            min-width: 350px;
+            font-size: 2.5rem;
+        }
+    }
+    main{
+        .top-main-inner{
+            min-height: 265px;
+            background-attachment: scroll;
+            background-position-x: 60%;
+        }
+        .section-title{
+            font-size: 2.0rem;
+            line-height: 2.4rem;
+        }
+        .top-name{
+            font-size: 1.5rem;
+            line-height: 1.6rem;
+            top: 20px;
+            left: 10px;
+        }
+        .top-description{
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+            top: 20px;
+        }
+        .information-block-links{
+            flex-direction: column;
+            margin: 0 auto;
+            max-width: 52%;
+            gap: 15px;
+            margin-top: 15px;
+            margin-bottom: 30px;
+        }
+        .about-information{
+            padding-bottom: 20px;
+            .about-information-text{
+                font-size: 1rem;
+                line-height: 1.2rem;
+            }
+        }
+    }
+    footer{
+        .footer-menu-list{
+            gap: 10px;
+        }
+    }
+}
+
+@media(max-width:390px){
+    header{
+        .menu-list-inner-item{
+            min-width: 300px;
+        }
+    }
+}
